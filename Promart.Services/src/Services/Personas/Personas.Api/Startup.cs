@@ -14,7 +14,9 @@ using Persona.Persistence.Database;
 using Personas.Service.Querys;
 using MediatR;
 using System.Reflection;
-
+using Common.Logging;
+using Swashbuckle;
+using System.IO;
 namespace Personas.Api
 {
     public class Startup
@@ -41,15 +43,40 @@ namespace Personas.Api
             services.AddTransient<IPersonaQueryService, PersonaQueryService>();
 
             services.AddControllers();
+
+
+            //Configuracion swagger
+            services.AddSwaggerGen(opt =>
+            {
+                opt.SwaggerDoc("v1",
+                    new Microsoft.OpenApi.Models.OpenApiInfo
+                    {
+                        Title = "PROMART Api",
+                        Description = "Api solicitado por PROMART en Swagger",
+                        Version = "v1.0.1"
+                    });
+                var fileName = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var filePath = Path.Combine(AppContext.BaseDirectory, fileName);
+                opt.IncludeXmlComments(filePath);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app,
+                IWebHostEnvironment env,
+                ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            ////Estableciendo el log con Papertrail
+            //loggerFactory.AddSyslog(
+            //     Configuration.GetValue<string>("Papertrail:host"),
+            //     Configuration.GetValue<int>("Papertrail:port"));
+
+
 
             app.UseRouting();
 
@@ -58,6 +85,13 @@ namespace Personas.Api
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(opciones =>
+            {
+                opciones.SwaggerEndpoint("/swagger/v1/swagger.json", "PROMART Api");
+                opciones.RoutePrefix = "";
             });
         }
     }

@@ -27,6 +27,7 @@ namespace Personas.Service.Querys
         public async Task<List<Model.Persona>> Personas()
         {
             var personas = await _context.Personas.OrderByDescending(x => x.PersonaID).ToListAsync();
+            
             return personas;
 
         }

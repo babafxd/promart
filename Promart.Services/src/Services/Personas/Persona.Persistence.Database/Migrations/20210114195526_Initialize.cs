@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Persona.Persistence.Database.Migrations
@@ -16,8 +15,8 @@ namespace Persona.Persistence.Database.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nombres = table.Column<string>(maxLength: 100, nullable: false),
                     Apellidos = table.Column<string>(maxLength: 100, nullable: false),
-                    FechaNacimiento = table.Column<DateTime>(nullable: false),
-                    Documento = table.Column<string>(maxLength: 11, nullable: false),
+                    FechaNacimiento = table.Column<string>(nullable: false),
+                    Documento = table.Column<long>(maxLength: 11, nullable: false),
                     TipoDocumento = table.Column<string>(maxLength: 3, nullable: false)
                 },
                 constraints: table =>
@@ -52,10 +51,10 @@ namespace Persona.Persistence.Database.Migrations
                 columns: new[] { "PersonaID", "Apellidos", "Documento", "FechaNacimiento", "Nombres", "TipoDocumento" },
                 values: new object[,]
                 {
-                    { 1, "Saavedra Castro 1", "15957844", new DateTime(1981, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Marco Antonio 1", "DNI" },
-                    { 2, "Saavedra Castro 2", "25957844", new DateTime(1982, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Marco Antonio 2", "DNI" },
-                    { 3, "Saavedra Castro 3", "35957844", new DateTime(1983, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Marco Antonio 3", "DNI" },
-                    { 4, "Saavedra Castro 4", "45957844", new DateTime(1984, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified), "Marco Antonio 4", "DNI" }
+                    { 1, "Saavedra Castro 1", 15957844L, "13/06/1981", "Marco Antonio 1", "DNI" },
+                    { 2, "Saavedra Castro 2", 25957844L, "13/06/1982", "Marco Antonio 2", "DNI" },
+                    { 3, "Saavedra Castro 3", 35957844L, "13/06/1983", "Marco Antonio 3", "DNI" },
+                    { 4, "Saavedra Castro 4", 45957844L, "13/06/1984", "Marco Antonio 4", "DNI" }
                 });
 
             migrationBuilder.InsertData(

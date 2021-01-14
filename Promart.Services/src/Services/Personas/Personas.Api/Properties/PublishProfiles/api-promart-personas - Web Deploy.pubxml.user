@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfbCSxFxxLU27c7QxKZoUFQAAAAACAAAAAAAQZgAAAAEAACAAAABhtminEcfxOH8gb3g/DBHDu6NeirHEJTirK76SZY13LAAAAAAOgAAAAAIAACAAAAA2P6MHRvK3QOdIC9hHN8uH6XleJOTPIhVjRJ1+cWvsJ4AAAADtmnjFSmQ+7p9miBeqvSzOdx7mpA8UaBiCjtFf7lS8YM/tTyaEPBRd9HmlxQ+DdsmG736IS5KdOXXUUOM0JTugWvz/8vufp7Rsk9hs2BHwtJskkMcAf+Wr0KjtEvM5cKbwi09CRLi0wjnhYxAwvlLFsRN+e4OIpznOO8A5Kl+ZqEAAAAB5IF8JVaGEHVIjGPy4uRhxeusI+Joi+cVwICMJS8QbpdhvkWsHDx+mox2Y68ExICR9K1ep5eH0ExDebECifquS</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=dbpromartmsaavedra.mysql.database.azure.com%3b Port=3306%3b Database=DBPromart%3b Uid=msaavedra%40dbpromartmsaavedra%3b Pwd=%24oPort32%252020%3b SslMode=Preferred</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

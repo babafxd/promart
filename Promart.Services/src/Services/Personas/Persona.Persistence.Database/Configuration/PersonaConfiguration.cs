@@ -28,9 +28,9 @@ namespace Persona.Persistence.Database.Configuration
                             PersonaID = i,
                             Nombres = $"Marco Antonio {i}",
                             Apellidos = $"Saavedra Castro {i}",
-                            FechaNacimiento = Convert.ToDateTime($"13/06/198{i}"),
+                            FechaNacimiento = $"13/06/198{i}",
                             TipoDocumento = "DNI",
-                            Documento = $"{i}5957844"
+                            Documento = Convert.ToInt64($"{i}5957844")
 
                         }
                     );

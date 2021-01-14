@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Persona.Persistence.Database;
 using Personas.Service.EventHandlers.Commands;
+using Personas.Service.EventHandlers.Exceptions;
+using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -15,7 +17,7 @@ namespace Personas.Service.EventHandlers
         private readonly ApplicationDbContext _context;
         private readonly ILogger<PersonaUpdateEventHandler> _logger;
 
-        public PersonaUpdateEventHandler(ApplicationDbContext context , 
+        public PersonaUpdateEventHandler(ApplicationDbContext context,
             ILogger<PersonaUpdateEventHandler> logger)
         {
             _context = context;
@@ -25,7 +27,7 @@ namespace Personas.Service.EventHandlers
         //Desencadenante del evento
         public async Task Handle(PersonaUpdateCommand notification, CancellationToken cancellationToken)
         {
-            _logger.LogInformation("--- PersonaUpdateCommand inicando");            
+            _logger.LogInformation("--- PersonaUpdateCommand inicando");
             var persona = await _context.Personas.FindAsync(notification.PersonaID);
 
             if (persona != null)
@@ -36,13 +38,15 @@ namespace Personas.Service.EventHandlers
                 persona.FechaNacimiento = notification.FechaNacimiento;
                 persona.Documento = notification.Documento;
                 persona.TipoDocumento = notification.TipoDocumento;
+                await _context.SaveChangesAsync();
             }
-            else 
+            else
             {
                 _logger.LogInformation("--- No se encontraron datos");
+                throw new PersonaUpdateEventHandlerException("No existe la persona enviada");
             }
 
-            await _context.SaveChangesAsync();
+
 
         }
 

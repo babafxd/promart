@@ -1,0 +1,14 @@
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Personas.Service.Querys.deps.json
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Personas.Service.Querys.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Personas.Service.Querys.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Persona.Domain.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Persona.Persistence.Database.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Persona.Persistence.Database.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\bin\Release\netcoreapp3.1\Persona.Domain.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.csprojAssemblyReference.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.AssemblyInfoInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.AssemblyInfo.cs
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.csproj.CoreCompileInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.csproj.CopyComplete
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Service.Querys\obj\Release\netcoreapp3.1\Personas.Service.Querys.pdb

@@ -1,0 +1,9 @@
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.deps.json
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\bin\Debug\netcoreapp3.1\Common.Logging.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csprojAssemblyReference.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfoInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.AssemblyInfo.cs
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.csproj.CoreCompileInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Common\Common.Logging\obj\Debug\netcoreapp3.1\Common.Logging.pdb

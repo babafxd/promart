@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ebc9f5ca-18d8-4a4c-9485-f57a3bbe7796</UserSecretsId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,14 +16,26 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.11" />
+    <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="3.1.11" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Common.Logging\Common.Logging.csproj" />
     <ProjectReference Include="..\Persona.Domain\Persona.Domain.csproj" />
     <ProjectReference Include="..\Persona.Persistence.Database\Persona.Persistence.Database.csproj" />
     <ProjectReference Include="..\Personas.Service.EventHandlers\Personas.Service.EventHandlers.csproj" />
     <ProjectReference Include="..\Personas.Service.Querys\Personas.Service.Querys.csproj" />
   </ItemGroup>
 
+	
+	
+    <!--Configuracion swagger-->
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+	
 
 </Project>

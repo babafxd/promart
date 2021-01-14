@@ -16,9 +16,9 @@ namespace Personas.Service.EventHandlers.Commands
         public string Apellidos { get; set; }
 
 
-        public DateTime FechaNacimiento { get; set; }
+        public string FechaNacimiento { get; set; }
 
-        public string Documento { get; set; }
+        public Int64 Documento { get; set; }
 
 
         public string TipoDocumento { get; set; }

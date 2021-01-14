@@ -1,0 +1,9 @@
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\bin\Release\netcoreapp3.1\Persona.Domain.deps.json
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\bin\Release\netcoreapp3.1\Persona.Domain.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\bin\Release\netcoreapp3.1\Persona.Domain.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.csprojAssemblyReference.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.AssemblyInfoInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.AssemblyInfo.cs
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.csproj.CoreCompileInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Domain\obj\Release\netcoreapp3.1\Persona.Domain.pdb

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Persona.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Personas.Api.Controllers.PersonaController">
+            <summary>
+            Marco Saavedra - PROMART - servicio PersonaController, verbos GET/POST/PUT/DELETE para el manejo de personas
+            </summary>
+        </member>
+        <member name="M:Personas.Api.Controllers.PersonaController.Get">
+            <summary>
+            Metodo para listar personas
+            </summary>
+            <returns>Listado de personas</returns>
+        </member>
+        <member name="M:Personas.Api.Controllers.PersonaController.Create(Personas.Service.EventHandlers.Commands.PersonaCreateCommand)">
+            <summary>
+            Metodo para crear una persona
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Personas.Api.Controllers.PersonaController.Update(Personas.Service.EventHandlers.Commands.PersonaUpdateCommand)">
+            <summary>
+            Metodo para actualizar una persona
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Personas.Api.Controllers.PersonaController.Delete(System.Int32)">
+            <summary>
+            Metodo para eliminar una persona
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Persona.Api.Controllers.PersonaDetalleController">
+            <summary>
+            Marco Saavedra - PROMART - servicio PersonaDetalleController, verbos POST/PUT/DELETE para el manejo de los datos extras de personas
+            </summary>
+        </member>
+        <member name="M:Persona.Api.Controllers.PersonaDetalleController.Create(System.Int32,Personas.Service.EventHandlers.Commands.PersonaDetalleCreateCommand)">
+            <summary>
+            Metodo para agregar direccion, email o telefono a una persona por personaId
+            </summary>
+            <param name="personaId"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Persona.Api.Controllers.PersonaDetalleController.Update(System.Int32,Personas.Service.EventHandlers.Commands.PersonaDetalleUpdateCommand)">
+            <summary>
+            Metodo para actualizar un registro extra por id
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Persona.Api.Controllers.PersonaDetalleController.Delete(System.Int32)">
+            <summary>
+            Metodo para eliminar un registro extra por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

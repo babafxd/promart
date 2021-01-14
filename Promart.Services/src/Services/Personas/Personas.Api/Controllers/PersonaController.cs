@@ -10,6 +10,10 @@ using Model = Persona.Domain;
 
 namespace Personas.Api.Controllers
 {
+
+    /// <summary>
+    /// Marco Saavedra - PROMART - servicio PersonaController, verbos GET/POST/PUT/DELETE para el manejo de personas
+    /// </summary>
     [ApiController]
     [Route("persona")]
     public class PersonaController : ControllerBase
@@ -26,12 +30,32 @@ namespace Personas.Api.Controllers
             _mediator = mediator;
         }
 
+
+        /// <summary>
+        /// Metodo para listar personas
+        /// </summary>
+        /// <returns>Listado de personas</returns>
         [HttpGet]
         public async Task<List<Model.Persona>> Get()
         {
-            return await _personaQueryService.Personas();
+            try
+            {
+                _logger.LogInformation($"--- Iniciando listado de personas");
+                return await _personaQueryService.Personas();
+            }
+            catch (Exception ex) 
+            {
+                throw ex;
+            }
         }
 
+
+
+        /// <summary>
+        /// Metodo para crear una persona
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> Create(PersonaCreateCommand command)
         {
@@ -42,11 +66,17 @@ namespace Personas.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"--- Excepcion controlada:  {ex}");
-                return ValidationProblem();
+                _logger.LogError($"--- Excepcion controlada:  {ex}");
+                return ValidationProblem(ex.ToString());
             }
         }
 
+
+        /// <summary>
+        /// Metodo para actualizar una persona
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPut]
         public async Task<IActionResult> Update(PersonaUpdateCommand command)
         {
@@ -57,11 +87,16 @@ namespace Personas.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"--- Excepcion controlada:  {ex}"); 
+                _logger.LogError($"--- Excepcion controlada:  {ex}");
                 return ValidationProblem();
             }
         }
 
+        /// <summary>
+        /// Metodo para eliminar una persona
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -73,7 +108,7 @@ namespace Personas.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation($"--- Excepcion controlada:  {ex}");
+                _logger.LogError($"--- Excepcion controlada:  {ex}");
                 return ValidationProblem();
             }
         }

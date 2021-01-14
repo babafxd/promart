@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Test\\Persona.Test.csproj": {}
+  },
+  "projects": {
+    "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj",
+        "projectName": "Persona.Domain",
+        "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj",
+        "packagesPath": "C:\\Users\\MarcoHuawei\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarcoHuawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj",
+        "projectName": "Persona.Persistence.Database",
+        "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj",
+        "packagesPath": "C:\\Users\\MarcoHuawei\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarcoHuawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj": {
+                "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.11, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Test\\Persona.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Test\\Persona.Test.csproj",
+        "projectName": "Persona.Test",
+        "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Test\\Persona.Test.csproj",
+        "packagesPath": "C:\\Users\\MarcoHuawei\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarcoHuawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj": {
+                "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj"
+              },
+              "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\Personas.Service.EventHandlers.csproj": {
+                "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\Personas.Service.EventHandlers.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\Personas.Service.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\Personas.Service.EventHandlers.csproj",
+        "projectName": "Personas.Service.EventHandlers",
+        "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\Personas.Service.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\MarcoHuawei\\.nuget\\packages\\",
+        "outputPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Personas.Service.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MarcoHuawei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj": {
+                "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Domain\\Persona.Domain.csproj"
+              },
+              "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj": {
+                "projectPath": "D:\\SISTEMAS_HUAWEI\\PROMART\\Promart.Services\\src\\Services\\Personas\\Persona.Persistence.Database\\Persona.Persistence.Database.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

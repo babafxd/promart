@@ -10,6 +10,9 @@ using Model = Persona.Domain;
 
 namespace Persona.Api.Controllers
 {
+    /// <summary>
+    /// Marco Saavedra - PROMART - servicio PersonaDetalleController, verbos POST/PUT/DELETE para el manejo de los datos extras de personas
+    /// </summary>
     [ApiController]
     [Route("persona-datos-extras")]
     public class PersonaDetalleController : Controller
@@ -24,6 +27,12 @@ namespace Persona.Api.Controllers
             _mediator = mediator;
         }
 
+        /// <summary>
+        /// Metodo para agregar direccion, email o telefono a una persona por personaId
+        /// </summary>
+        /// <param name="personaId"></param>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPost("{personaId}")]
         public async Task<IActionResult> Create(int personaId, PersonaDetalleCreateCommand command)
         {
@@ -42,6 +51,12 @@ namespace Persona.Api.Controllers
 
         }
 
+        /// <summary>
+        /// Metodo para actualizar un registro extra por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="command"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, PersonaDetalleUpdateCommand command)
         {
@@ -58,6 +73,11 @@ namespace Persona.Api.Controllers
             }
         }
 
+        /// <summary>
+        /// Metodo para eliminar un registro extra por id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

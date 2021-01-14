@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 namespace Personas.Api.Controllers
 {
     [ApiController]
-    [Route("/")]
+    [Route("/prueba")]
     public class DefaultController : ControllerBase
     {
 
@@ -17,7 +17,7 @@ namespace Personas.Api.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Ejecutando...";
+            return "Solo es una prueba...";
         }
     }
 }
