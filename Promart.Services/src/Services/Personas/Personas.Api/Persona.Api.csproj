@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Persona.Domain\Persona.Domain.csproj" />
+    <ProjectReference Include="..\Persona.Persistence.Database\Persona.Persistence.Database.csproj" />
+    <ProjectReference Include="..\Personas.Service.EventHandlers\Personas.Service.EventHandlers.csproj" />
+    <ProjectReference Include="..\Personas.Service.Querys\Personas.Service.Querys.csproj" />
+  </ItemGroup>
+
+
+</Project>

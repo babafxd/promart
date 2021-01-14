@@ -1,0 +1,12 @@
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\bin\Debug\netcoreapp3.1\Persona.Persistence.Database.deps.json
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\bin\Debug\netcoreapp3.1\Persona.Persistence.Database.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\bin\Debug\netcoreapp3.1\Persona.Persistence.Database.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.csprojAssemblyReference.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.AssemblyInfoInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.AssemblyInfo.cs
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.csproj.CoreCompileInputs.cache
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\bin\Debug\netcoreapp3.1\Persona.Domain.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\bin\Debug\netcoreapp3.1\Persona.Domain.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Persona.Persistence.Database\obj\Debug\netcoreapp3.1\Persona.Persistence.Database.csproj.CopyComplete
