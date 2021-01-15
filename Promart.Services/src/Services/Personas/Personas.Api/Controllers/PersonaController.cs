@@ -1,10 +1,14 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Persona.Api.CloudStorage;
 using Personas.Service.EventHandlers.Commands;
 using Personas.Service.Querys;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using Model = Persona.Domain;
 
@@ -21,13 +25,20 @@ namespace Personas.Api.Controllers
         private readonly IPersonaQueryService _personaQueryService;
         private readonly ILogger<PersonaController> _logger;
         private readonly IMediator _mediator;
+
+
+
+        private readonly ICloudStorage _cloudStorage;
+
         public PersonaController(ILogger<PersonaController> logger,
                 IPersonaQueryService personaQueryService,
-                IMediator mediator)
+                IMediator mediator,
+                ICloudStorage cloudStorage)
         {
             _logger = logger;
             _personaQueryService = personaQueryService;
             _mediator = mediator;
+            _cloudStorage = cloudStorage;
         }
 
 
@@ -43,7 +54,7 @@ namespace Personas.Api.Controllers
                 _logger.LogInformation($"--- Iniciando listado de personas");
                 return await _personaQueryService.Personas();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -112,6 +123,55 @@ namespace Personas.Api.Controllers
                 return ValidationProblem();
             }
         }
+
+        /// <summary>
+        /// Metodo para subir fotos
+        /// </summary>
+        /// <param name="file"></param>
+        /// <returns></returns>
+        [HttpPost("upload")]
+        [AllowAnonymous]
+        public async Task<string> SubirFoto(IFormFile file)
+        {
+            try
+            {
+
+                if (file != null)
+                {
+                    return await UploadFile(file);
+                }
+                else
+                {
+                    return "No adjunto un documento";
+                }
+
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"--- Excepcion controlada:  {ex}");
+                return ex.ToString();
+            }
+
+        }
+
+
+        private async Task<string> UploadFile(IFormFile ImageFile)
+        {
+            string fileNameForStorage = FormFileName("foto", ImageFile.FileName);
+            return "Url descarga:" + await _cloudStorage.UploadFileAsync(ImageFile, fileNameForStorage);
+
+        }
+
+        private static string FormFileName(string title, string fileName)
+        {
+            var fileExtension = Path.GetExtension(fileName);
+            var fileNameForStorage = $"{title}-{DateTime.Now.ToString("yyyyMMddHHmmss")}{fileExtension}";
+            return fileNameForStorage;
+        }
+
+
+
+
 
 
     }

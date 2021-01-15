@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "promartstorage",
+  "private_key_id": "b086b202b8ee4619c8dd34483c42c9df57bb78bc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD9Cdq1mCKSk2V0\nNU4LKxDPkSpurSjSRXSxlKFsuPBtNKI+1dLlcJDNOW6cDcjtaOvZeX0diDnTv2x3\nONYPjphyEppJ8Bl6E6uyIg+hNQJffS3PIdAu4lO1Y1lFX202aTR/CNVz1a2yOz/L\nZqvg3csyj5b0bUOMslKHIrGQNYpC1gs6z/ttOh0wBZbWW3KwQt/j8D40+h+TsNqN\nButHeJ6OGKHVw38kt9dgFkWyerjapFQJI8pzV+5xtd9J+0vclzAHPO289uSqzqbX\nglsqXo2I5gFssNMWdwhRLIaO+S5H09DwtyBhMpbv2N+JCeg/rqvD/58Sn/3jycgT\nD+N+3E7PAgMBAAECggEAO4Zq7dcpIuQLtMepYVUzMjELE1gmxzhRmEjHpKTo4jfE\nhxWT9CeD2NNO4uUXREovWUyMEzttpxNb97vmF2jLEeKwav5Rb/dap5/9n0WyFjaD\nZTumFrFlUcFaSciGD4u2LsAsPoCgyNHJUxcHDfH/EBjZQQzHHD0CzwlpTexaZxgt\ncuRWL7OeaEGbiu1RwlvFTfTNqfHaCvjuKeypvZJ1Kp/t9gcH4r1KLg9nob+S2kY4\nIhVweSq3gP23qMuQL+HCfZd9AduyucXG+vNgucqyk1pN3cy2DQzJXrFGMNPvCxwA\nihINmViRlh34i60LW35eH5G0w95c5hsssASxBb/fqQKBgQD/HDjjiCuxWYMoMpg5\nQSUxOPFVegu703AuYYV9NQ8A2FeZNuzW9KeYzWQ5eTJB8N/OSptAhSx9RBYF67gh\nOFXjDhaSamgytxKS3KUypwnwY0IrTmWUZdbeSttQXgmxZmFtTasB4CK6LQ1oeuQQ\n0gU1SMpi+4sfWfWf3ynRrWpmEwKBgQD968hGtChfhOD8EpZDWkSPcDqLTDvAtX41\nZX5H05vmhZCJhrHlFQ+MYOMjK11X+wCkfeWiUCclmM5qWt8J1tn+l3Iy2ak0JPoV\n3F7/nKms54XC0lD1obeNvyMmtqukSKE85WhqXbC/8JUOUQXtEom8p77aD5+su2kC\nEwfxdtU71QKBgEFdYdYq1ccjQE/UZtyErJroFC3qj4cYre20XxetuKJmzEsdn6GU\nHj0wozV2sEHlDfM1eoIVnUibYWky9ILOhHMg8Pei+//CmKe4kTthQVKunA2skKpt\nTZi3ZWo6LhGeQehXtjFM1JkPYhgbJMSKi3sTo4epHAR0cFL+QyDOZiyxAoGBAJOZ\nDdbDfEBhziHYcA4Al5/FPdKg4o7XMOC6+VepEpNCCk1WxWuC/YG9A+r6lwzAM5Rq\nNiROcSLymvHJlqJyiE7sG46hZTCRWemBKptspliCUAd6F2NguIClnTowrr8VFNyA\nAVzqzwYTQ6GJyWcQAo5t94trz4YpfhWdmF1slPBtAoGBAL3yiUCC8cgd7nMvqY0y\nqvnvKe9esK0qYm0k/hMMQLUQsFFXMjGf8TQPqhvVgO1RhoEMzRrC9oUXbR3LasR3\n76nldei1pRX8KiFxaIE83WHsgcWKMKj42uP5FKhg5eFoa4hybpXAGb/LhIxnbDnz\n0wYa0aB5TKd2Pyaa/LsvacbZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "serviciofotos@promartstorage.iam.gserviceaccount.com",
+  "client_id": "101678820470089891989",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/serviciofotos%40promartstorage.iam.gserviceaccount.com"
+}

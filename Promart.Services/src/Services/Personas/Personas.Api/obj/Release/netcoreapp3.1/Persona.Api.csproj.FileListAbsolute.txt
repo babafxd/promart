@@ -69,3 +69,11 @@ D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\b
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\Persona.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\Persona.Api.xml
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Api.Gax.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Api.Gax.Rest.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Apis.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Apis.Auth.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Apis.Core.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Apis.Storage.v1.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\bin\Release\netcoreapp3.1\Google.Cloud.Storage.V1.dll

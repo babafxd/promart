@@ -17,6 +17,8 @@ using System.Reflection;
 using Common.Logging;
 using Swashbuckle;
 using System.IO;
+using Persona.Api.CloudStorage;
+
 namespace Personas.Api
 {
     public class Startup
@@ -59,6 +61,9 @@ namespace Personas.Api
                 var filePath = Path.Combine(AppContext.BaseDirectory, fileName);
                 opt.IncludeXmlComments(filePath);
             });
+
+            //Para la conexion google cloud storage
+            services.AddSingleton<ICloudStorage, GoogleCloudStorage>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

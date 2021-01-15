@@ -10,6 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="api-promart-personas.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="api-promart-personas.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Storage.V1" Version="3.3.0" />
     <PackageReference Include="MediatR" Version="8.0.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.1">

@@ -3,6 +3,14 @@ D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\o
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Persona.Api.dll
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Persona.Api.runtimeconfig.json
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Persona.Api.pdb
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Api.Gax.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Api.Gax.Rest.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Auth.PlatformServices.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Auth.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Core.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Apis.Storage.v1.dll
+D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Google.Cloud.Storage.V1.dll
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\MediatR.dll
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\MediatR.Extensions.Microsoft.DependencyInjection.dll
 D:\SISTEMAS_HUAWEI\PROMART\Promart.Services\src\Services\Personas\Personas.Api\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll

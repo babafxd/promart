@@ -7,7 +7,7 @@ using Model = Persona.Domain;
 
 namespace Personas.Service.Querys
 {
-    public interface IPersonaQueryService 
+    public interface IPersonaQueryService
     {
         Task<List<Model.Persona>> Personas();
 
@@ -26,8 +26,11 @@ namespace Personas.Service.Querys
 
         public async Task<List<Model.Persona>> Personas()
         {
-            var personas = await _context.Personas.OrderByDescending(x => x.PersonaID).ToListAsync();
-            
+            var personas = await _context.Personas
+                    .OrderByDescending(x => x.PersonaID)
+                    .Include(x => x.Detalle)
+                    .ToListAsync();
+
             return personas;
 
         }
